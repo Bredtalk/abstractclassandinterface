@@ -15,3 +15,11 @@ duck.Sound();
 duck.Eat();
 
 //bai 2
+Vehicle bike  = new Bike();
+bike.Move();
+Vehicle boat = new Boat();
+boat.Move();
+Vehicle car = new Car();
+car.Move();
+
+//bai 3

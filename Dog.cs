@@ -1,6 +1,6 @@
 ﻿namespace abstractclassandinterface;
 
-public class Dog : Animal, Swimming//you can use swimming even though animal don't have it
+public class Dog : Animal, ISwimming//you can use swimming even though animal don't have it
 {
     public override void Sound()
     {

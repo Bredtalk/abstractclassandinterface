@@ -14,5 +14,5 @@ public abstract class Vehicle
     {
         Console.WriteLine("Vehicle Stop");
     }
-    
+    public abstract void Move();
 }
