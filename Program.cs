@@ -41,3 +41,14 @@ IFly eagle = new Eagle();// same for eagle
 eagle.Fly();
 
 //bai 5
+Character archer = new Archer();
+archer.Attack();
+archer.Move();
+Character warrior = new Warrior();
+warrior.Move();
+warrior.Attack();
+Character mage  = new Mage();
+mage.Move();
+mage.Attack();
+
+//bai 6
