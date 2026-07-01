@@ -1,6 +1,14 @@
 ﻿namespace abstractclassandinterface;
 
-public class Dog
+public class Dog : Animal, Swimming//you can use swimming even though animal don't have it
 {
-    
+    public override void Sound()
+    {
+        Console.WriteLine("Bark Bark");
+    }
+
+    public void Swim()
+    {
+        Console.WriteLine("I'm swimming");
+    }
 }
