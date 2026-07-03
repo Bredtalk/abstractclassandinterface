@@ -1,6 +1,6 @@
 ﻿namespace abstractclassandinterface;
 
-public class Enemy : Character, IDamageable 
+public class Enemy : Character, IDamageable
 {
     public override void Attack()
     {
@@ -12,7 +12,7 @@ public class Enemy : Character, IDamageable
         Console.WriteLine("the enemy is moving");
     }
 
-    public void TakeDamage(int damage)
+    public override void TakeDamage( int damage)
     {
         HP -= damage;
         Console.WriteLine($"The enemy took {damage} damage and currently has {HP} HP");

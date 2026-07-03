@@ -11,4 +11,9 @@ public class Archer : Character
     {
         Console.WriteLine("Archer is moving");
     }
+
+    public override void TakeDamage(int damage)
+    {
+    
+    }
 }

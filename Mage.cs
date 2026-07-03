@@ -11,4 +11,9 @@ public class Mage : Character
     {
         Console.WriteLine("Mage is moving");
     }
+
+    public override void TakeDamage(int damage)
+    {
+        
+    }
 }

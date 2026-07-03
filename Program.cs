@@ -52,3 +52,33 @@ mage.Move();
 mage.Attack();
 
 //bai 6
+Character boss  = new Boss();
+boss.HP = 10;
+boss.TakeDamage(10);
+Character player = new Player();
+player.HP = 100;
+player.TakeDamage(10);
+player.Name = "Assasin";
+
+//bai 7
+Player player2 = new Player();
+player2.HP = 100;
+player2.Name = "Ken";
+player2.Interact();
+Enemy enemy = new Enemy();
+enemy.TakeDamage(10);
+enemy.HP = 100;
+Coins balance = new Coins();
+balance.Collect(34);
+Chest chest = new Chest();
+chest.Interact();
+
+//bai 8
+PartTimeEmployee employee1 =  new PartTimeEmployee();
+employee1.CalculateSalary();
+FullTimeEmployee employee2 = new FullTimeEmployee();
+employee2.CalculateSalary();
+
+//bai 9
+
+

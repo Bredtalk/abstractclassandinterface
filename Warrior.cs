@@ -11,4 +11,9 @@ public class Warrior : Character
     {
         Console.WriteLine("Warrior is moving");
     }
+
+    public override void TakeDamage(int damage)
+    {
+       
+    }
 }

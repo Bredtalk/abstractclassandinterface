@@ -2,7 +2,7 @@
 
 public class Boss : Character, IDamageable
 {
-    public void TakeDamage(int damage)
+    public override void TakeDamage(int damage)
     {
         HP -= damage;
         Console.WriteLine($"The boss took {damage} damage and currently has {HP} HP");
