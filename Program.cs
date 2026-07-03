@@ -80,5 +80,29 @@ FullTimeEmployee employee2 = new FullTimeEmployee();
 employee2.CalculateSalary();
 
 //bai 9
+Creditcard creditcard = new Creditcard();
+creditcard.Pay(34);
+BankTransfer bankcard = new BankTransfer();
+bankcard.Pay(34);
+Paypay paypal = new Paypay();
+paypal.Pay(34);
+
+//bai 10
+Warrior warrior1 = new Warrior();
+Boss boss1 = new Boss();
+boss1.HP = 100;
+warrior1.HP = 100;
+warrior1.Move();
+for (int i = 0; i < 10; i++)
+{
+    warrior1.Attack();
+    mage.Attack();
+    boss1.TakeDamage(15);
+    if (boss1.HP <= 0)
+    {
+        break;
+        Console.WriteLine("Victory");
+    }
+}
 
 
